@@ -7,12 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2440C98D1A3891F20057EF52 /* webview.m in Sources */ = {isa = PBXBuildFile; fileRef = 2440C98C1A3891F20057EF52 /* webview.m */; };
 		24A394AD1A2489BA00702FEC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24A394AC1A2489BA00702FEC /* AppDelegate.swift */; };
 		24A394AF1A2489BB00702FEC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24A394AE1A2489BB00702FEC /* ViewController.swift */; };
 		24A394B21A2489BB00702FEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24A394B01A2489BB00702FEC /* Main.storyboard */; };
 		24A394B41A2489BB00702FEC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24A394B31A2489BB00702FEC /* Images.xcassets */; };
 		24A394B71A2489BB00702FEC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24A394B51A2489BB00702FEC /* LaunchScreen.xib */; };
 		24A394C31A2489BB00702FEC /* hyscoswiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24A394C21A2489BB00702FEC /* hyscoswiftTests.swift */; };
+		24CDD1E31A38488D009B9CC9 /* HitList.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 24CDD1E11A38488D009B9CC9 /* HitList.xcdatamodeld */; };
+		24CDD1E51A384A00009B9CC9 /* viewhsyco.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24CDD1E41A384A00009B9CC9 /* viewhsyco.swift */; };
+		24CDD21C1A385F28009B9CC9 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 24CDD21B1A385F28009B9CC9 /* libsqlite3.dylib */; };
+		24CDD21E1A3860AC009B9CC9 /* SwiftData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24CDD21D1A3860AC009B9CC9 /* SwiftData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +31,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2440C98B1A3891F20057EF52 /* webview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = webview.h; path = ../webview.h; sourceTree = "<group>"; };
+		2440C98C1A3891F20057EF52 /* webview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = webview.m; path = ../webview.m; sourceTree = "<group>"; };
+		2458AC321A2DDC88006AA829 /* hyscoswift-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "hyscoswift-Bridging-Header.h"; sourceTree = "<group>"; };
 		24A394A71A2489BA00702FEC /* hyscoswift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hyscoswift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		24A394AB1A2489BA00702FEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		24A394AC1A2489BA00702FEC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +44,10 @@
 		24A394BC1A2489BB00702FEC /* hyscoswiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hyscoswiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		24A394C11A2489BB00702FEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		24A394C21A2489BB00702FEC /* hyscoswiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hyscoswiftTests.swift; sourceTree = "<group>"; };
+		24CDD1E21A38488D009B9CC9 /* HitList.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HitList.xcdatamodel; sourceTree = "<group>"; };
+		24CDD1E41A384A00009B9CC9 /* viewhsyco.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = viewhsyco.swift; sourceTree = "<group>"; };
+		24CDD21B1A385F28009B9CC9 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		24CDD21D1A3860AC009B9CC9 /* SwiftData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24CDD21C1A385F28009B9CC9 /* libsqlite3.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +72,7 @@
 		24A3949E1A2489BA00702FEC = {
 			isa = PBXGroup;
 			children = (
+				24CDD21B1A385F28009B9CC9 /* libsqlite3.dylib */,
 				24A394A91A2489BA00702FEC /* hyscoswift */,
 				24A394BF1A2489BB00702FEC /* hyscoswiftTests */,
 				24A394A81A2489BA00702FEC /* Products */,
@@ -79,10 +93,16 @@
 			children = (
 				24A394AC1A2489BA00702FEC /* AppDelegate.swift */,
 				24A394AE1A2489BB00702FEC /* ViewController.swift */,
+				2440C98B1A3891F20057EF52 /* webview.h */,
+				2440C98C1A3891F20057EF52 /* webview.m */,
+				24CDD1E11A38488D009B9CC9 /* HitList.xcdatamodeld */,
 				24A394B01A2489BB00702FEC /* Main.storyboard */,
+				24CDD21D1A3860AC009B9CC9 /* SwiftData.swift */,
+				24CDD1E41A384A00009B9CC9 /* viewhsyco.swift */,
 				24A394B31A2489BB00702FEC /* Images.xcassets */,
 				24A394B51A2489BB00702FEC /* LaunchScreen.xib */,
 				24A394AA1A2489BA00702FEC /* Supporting Files */,
+				2458AC321A2DDC88006AA829 /* hyscoswift-Bridging-Header.h */,
 			);
 			path = hyscoswift;
 			sourceTree = "<group>";
@@ -212,8 +232,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24CDD1E51A384A00009B9CC9 /* viewhsyco.swift in Sources */,
+				24CDD21E1A3860AC009B9CC9 /* SwiftData.swift in Sources */,
 				24A394AF1A2489BB00702FEC /* ViewController.swift in Sources */,
+				24CDD1E31A38488D009B9CC9 /* HitList.xcdatamodeld in Sources */,
 				24A394AD1A2489BA00702FEC /* AppDelegate.swift in Sources */,
+				2440C98D1A3891F20057EF52 /* webview.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -338,9 +362,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = hyscoswift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "hyscoswift/hyscoswift-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -348,9 +376,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = hyscoswift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "hyscoswift/hyscoswift-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -407,6 +438,7 @@
 				24A394C81A2489BB00702FEC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		24A394C91A2489BB00702FEC /* Build configuration list for PBXNativeTarget "hyscoswiftTests" */ = {
 			isa = XCConfigurationList;
@@ -415,8 +447,23 @@
 				24A394CB1A2489BB00702FEC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		24CDD1E11A38488D009B9CC9 /* HitList.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				24CDD1E21A38488D009B9CC9 /* HitList.xcdatamodel */,
+			);
+			currentVersion = 24CDD1E21A38488D009B9CC9 /* HitList.xcdatamodel */;
+			name = HitList.xcdatamodeld;
+			path = ../HitList.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 24A3949F1A2489BA00702FEC /* Project object */;
 }
