@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>83124365-779F-4873-BFB1-4C00EA1C5690</string>
+	<key>IDESourceControlProjectName</key>
+	<string>hyscoswift</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>644BEAC977A32F6348EDEF5C411880BE4A724A77</key>
+		<string>https://github.com/sgs1/hyscoswift.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>hyscoswift.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>644BEAC977A32F6348EDEF5C411880BE4A724A77</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/sgs1/hyscoswift.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>644BEAC977A32F6348EDEF5C411880BE4A724A77</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>644BEAC977A32F6348EDEF5C411880BE4A724A77</string>
+			<key>IDESourceControlWCCName</key>
+			<string>hyscoswift</string>
+		</dict>
+	</array>
+</dict>
+</plist>

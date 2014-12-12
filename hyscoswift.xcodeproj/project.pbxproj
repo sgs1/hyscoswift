@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2440C98D1A3891F20057EF52 /* webview.m in Sources */ = {isa = PBXBuildFile; fileRef = 2440C98C1A3891F20057EF52 /* webview.m */; };
+		2499F1E51A3B1B2700FB42A6 /* newconfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2499F1E41A3B1B2700FB42A6 /* newconfiguration.swift */; };
 		24A394AD1A2489BA00702FEC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24A394AC1A2489BA00702FEC /* AppDelegate.swift */; };
 		24A394AF1A2489BB00702FEC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24A394AE1A2489BB00702FEC /* ViewController.swift */; };
 		24A394B21A2489BB00702FEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24A394B01A2489BB00702FEC /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 		2440C98B1A3891F20057EF52 /* webview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = webview.h; path = ../webview.h; sourceTree = "<group>"; };
 		2440C98C1A3891F20057EF52 /* webview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = webview.m; path = ../webview.m; sourceTree = "<group>"; };
 		2458AC321A2DDC88006AA829 /* hyscoswift-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "hyscoswift-Bridging-Header.h"; sourceTree = "<group>"; };
+		2499F1E41A3B1B2700FB42A6 /* newconfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = newconfiguration.swift; sourceTree = "<group>"; };
 		24A394A71A2489BA00702FEC /* hyscoswift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hyscoswift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		24A394AB1A2489BA00702FEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		24A394AC1A2489BA00702FEC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -97,6 +99,7 @@
 				2440C98C1A3891F20057EF52 /* webview.m */,
 				24CDD1E11A38488D009B9CC9 /* HitList.xcdatamodeld */,
 				24A394B01A2489BB00702FEC /* Main.storyboard */,
+				2499F1E41A3B1B2700FB42A6 /* newconfiguration.swift */,
 				24CDD21D1A3860AC009B9CC9 /* SwiftData.swift */,
 				24CDD1E41A384A00009B9CC9 /* viewhsyco.swift */,
 				24A394B31A2489BB00702FEC /* Images.xcassets */,
@@ -236,6 +239,7 @@
 				24CDD21E1A3860AC009B9CC9 /* SwiftData.swift in Sources */,
 				24A394AF1A2489BB00702FEC /* ViewController.swift in Sources */,
 				24CDD1E31A38488D009B9CC9 /* HitList.xcdatamodeld in Sources */,
+				2499F1E51A3B1B2700FB42A6 /* newconfiguration.swift in Sources */,
 				24A394AD1A2489BA00702FEC /* AppDelegate.swift in Sources */,
 				2440C98D1A3891F20057EF52 /* webview.m in Sources */,
 			);
